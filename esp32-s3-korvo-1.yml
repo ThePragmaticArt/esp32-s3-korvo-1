@@ -64,7 +64,8 @@ api:
     key: $encryption_key
 
 ota:
-
+  password: $ota_password
+  
 text_sensor:
   - platform: wifi_info
     ip_address:
